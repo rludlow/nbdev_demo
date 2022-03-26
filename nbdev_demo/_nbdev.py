@@ -2,12 +2,13 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"say_hello": "00_core.ipynb"}
+index = {"say_hello": "00_core.ipynb",
+         "HelloSayer": "00_core.ipynb"}
 
 modules = ["core.py"]
 
-doc_url = "https://rludlow.github.io/ndbev_demo/"
+doc_url = "https://rludlow.github.io/nbdev_demo/"
 
-git_url = "https://github.com/rludlow/ndbev_demo/tree/master/"
+git_url = "https://github.com/rludlow/nbdev_demo/tree/master/"
 
 def custom_doc_links(name): return None
